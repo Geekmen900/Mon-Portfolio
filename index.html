@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta name="description" content="Mon portfolio">
+    <meta name="keywords" content="Mon portfolio">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#accueil">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#accueil">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Réalisations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Expérience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Études</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero-section">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-6" data-aos="fade-right">
+                    <h1 class="display-1 fw-bold">Bonjour,<br>Je suis <span class="text-primary">Akibou Armel</span></h1>
+                    <p class="lead">Développeur Web Créatif</p>
+                    <a href="contact.html" class="btn btn-primary btn-lg">Contactez-moi</a>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="hero-image">
+                        <img src="images/unsplash.avif" alt="Hero" class="img-fluid rounded-3">
+                        <div class="shape-bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- À propos Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">À propos</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6" data-aos="fade-right">
+                    <img src="images/ME.jpg" alt="À propos" class="img-fluid rounded-3">
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <h3>Qui suis-je?</h3>
+                    <p class="lead">Un développeur passionné par la création d'expériences web uniques et innovantes.</p>
+                    <p>Spécialisé dans le développement web moderne, je crée des solutions digitales sur mesure qui répondent aux besoins spécifiques de mes clients.</p>
+                    <div class="skills-wrapper mt-4">
+                        <div class="skill-item">
+                            <h6>HTML/CSS</h6>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <h6>JavaScript</h6>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <h6>React.js</h6>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Mes Services</h2>
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-icon-wrapper">
+                            <i class="fas fa-laptop-code service-icon"></i>
+                        </div>
+                        <h4>Développement Web</h4>
+                        <p>Création de sites web modernes et responsifs avec les dernières technologies.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Sites sur mesure</li>
+                            <li><i class="fas fa-check"></i> Performance optimisée</li>
+                            <li><i class="fas fa-check"></i> Code propre et maintenable</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-icon-wrapper">
+                            <i class="fas fa-mobile-screen-button service-icon"></i>
+                        </div>
+                        <h4>Design Responsive</h4>
+                        <p>Sites web adaptés à tous les appareils pour une expérience utilisateur optimale.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Adaptation mobile</li>
+                            <li><i class="fas fa-check"></i> Interface intuitive</li>
+                            <li><i class="fas fa-check"></i> Design moderne</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="service-icon-wrapper">
+                            <i class="fas fa-magnifying-glass-chart service-icon"></i>
+                        </div>
+                        <h4>SEO</h4>
+                        <p>Optimisation pour les moteurs de recherche pour une meilleure visibilité en ligne.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Analyse technique</li>
+                            <li><i class="fas fa-check"></i> Optimisation contenu</li>
+                            <li><i class="fas fa-check"></i> Suivi performance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Mes Réalisations</h2>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="zoom-in">
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Projet 1" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h5>E-commerce</h5>
+                            <p>Site web de commerce électronique moderne</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="portfolio-item">
+                        <img src="images/App web.png" alt="Projet 2" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h5>Application Web</h5>
+                            <p>Dashboard analytique interactif</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="portfolio-item">
+                        <img src="images/Artiste vitrine.jpg" alt="Projet 3" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h5>Site Vitrine</h5>
+                            <p>Site web corporate responsive</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Expérience</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-content">
+                        <h4>Développeur Senior</h4>
+                        <p class="company">Entreprise XYZ</p>
+                        <p class="period">2020 - Présent</p>
+                        <p>Lead développeur sur des projets web majeurs, supervision d'une équipe de 5 développeurs.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-content">
+                        <h4>Développeur Web</h4>
+                        <p class="company">Entreprise ABC</p>
+                        <p class="period">2018 - 2020</p>
+                        <p>Développement de solutions web sur mesure pour des clients internationaux.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Formation</h2>
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-up">
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h4>Master en Développement Web</h4>
+                        <p class="school"><i class="fas fa-university"></i> GOMYCODE</p>
+                        <p class="year"><i class="fas fa-calendar-alt"></i> 2024 - 2025</p>
+                        <div class="education-details">
+                            <h5>Compétences acquises:</h5>
+                            <ul>
+                                <li>Développement Full Stack</li>
+                                <li>Développement d'application web</li>
+                                <li>Gestion de projets agiles</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h4>Licence en Informatique</h4>
+                        <p class="school"><i class="fas fa-university"></i> Université ABC</p>
+                        <p class="year"><i class="fas fa-calendar-alt"></i> 2019 - 2023</p>
+                        <div class="education-details">
+                            <h5>Compétences acquises:</h5>
+                            <ul>
+                                <li>Algorithmes et structures de données</li>
+                                <li>Programmation orientée objet</li>
+                                <li>Bases de données</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Témoignages</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="testimonial-card">
+                            <div class="testimonial-img">
+                                <img src="images/Chantelou NGOUANOU.jpg" alt="Client 1">
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="testimonial-text">"Un développeur exceptionnel qui a su transformer notre vision en réalité. Le résultat final a dépassé nos attentes."</p>
+                                <div class="testimonial-author">
+                                    <h5>JChantelou NGOUANOU</h5>
+                                    <p>Développeur freelance</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-card">
+                            <div class="testimonial-img">
+                                <img src="images/Directrice artistique .jpg" alt="Client 2">
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="testimonial-text">"Professionnalisme, créativité et respect des délais. Une collaboration parfaite du début à la fin."</p>
+                                <div class="testimonial-author">
+                                    <h5>Yomie Evelyne</h5>
+                                    <p>Directrice Artistique, Evènementiel</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section with enhanced design -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Contact</h2>
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-right">
+                    <div class="contact-form-wrapper">
+                        <form id="contact-form">
+                            <div class="mb-3">
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                    <input type="text" class="form-control" placeholder="Votre nom" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                    <input type="email" class="form-control" placeholder="Votre email" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fas fa-message"></i></span>
+                                    <textarea class="form-control" rows="5" placeholder="Votre message" required></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg w-100">
+                                <i class="fas fa-paper-plane me-2"></i>Envoyer
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="contact-info">
+                        <h4><i class="fas fa-address-card"></i> Informations de contact</h4>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h5>Email</h5>
+                                    <p><a href="akibouosseniarmel@icloud.com" class="text-">akibouosseniarmel@icloud.com</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <h5>Téléphone</h5>
+                                    <p>(+225) 05 44 30 39 82</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-location-dot"></i>
+                                <div>
+                                    <h5>Adresse</h5>
+                                    <p>(225) Abidjan, Côte d'Ivoire</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>À propos</h3>
+                        <p>Développeur web passionné, créant des expériences digitales uniques et innovantes.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Liens rapides</h3>
+                        <ul class="footer-links">
+                            <li><a href="#accueil">Accueil</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Suivez-moi</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="./main.js"></script>
+    <script src="./counter.js"></script>
+</body>
+</html>
