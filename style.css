@@ -685,6 +685,46 @@ a[href^="https://wa.me"] {
   transition: background 0.3s ease;
 }
 
+/* Bouton Outlook */
+a[href^="akibouosseniarmel@icloud.com"] {
+  background-color: #535e97;
+  color: white !important;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+/* Bouton Github */
+a[href^="https://github.com/Geekmen900"] {
+  background-color: #000000;
+  color: white !important;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+/* Bouton Instagram */
+a[href^="https://www.instagram.com/akibou_armel?igsh=MXhjbTUwOWpsY2gxbw%3D%3D&utm_source=qr"] {
+  background-color: #ec2323;
+  color: white !important;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+/* Bouton Linhedin */
+a[href^="https://www.linkedin.com/in/armel-akibou-16b82633b?trk=contact-info"] {
+  background-color: #282830;
+  color: white !important;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
 a[href^="https://wa.me"]:hover {
   background-color: #128C7E;
 }
